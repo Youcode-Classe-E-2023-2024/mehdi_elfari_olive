@@ -14,8 +14,9 @@
 
 body {
     background-repeat: no-repeat;
-    background-size: 100% 500px;
+
     background-color: #0a3d15 ;
+
 }
 
 header {
@@ -66,8 +67,8 @@ header {
 }
 
 .nav-bar ul li a.active:hover {
-    color: black;
-    background-color: grey;
+    color: black    ;
+    background-color: white;
 }
 
 .text {
@@ -93,32 +94,29 @@ header {
     left: 134px;
 }
 
-.but:hover {
-    color: black;
-    background-color: grey;
-}
 
 .div-1 {
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-content: center;
 }
 
 .div-2 {
-    position: relative;
-    left: 16rem;
-    top: 2rem;
-    width: 327px;
-    height: 65vh;
+    position: absolute;
+    right: 7%;
+    top: 17%;
+    width: 420px;
+    height: 82vh;
 }
 
 .image {
-    width: 114%;
-    height: 90%;
+    width: 101%;
+    height: 96%;
     display: flex;
     justify-content: normal;
     padding: 0 5px;
+    padding-bottom: 55px;
 }
 
 .table {
@@ -182,7 +180,7 @@ ol {
     gap: 10px;
     position: absolute;
     bottom: 3rem;
-    left: 59rem;
+    left: 71rem;
     right: 18px;;
 }
 
@@ -405,7 +403,7 @@ ol {
     justify-content: space-evenly;
 }
 .div-3 h1{
-    align-self: flex-start;
+    /
     padding-left: 70px;
 }
 .cards-container{
@@ -434,3 +432,61 @@ ol {
 .footer-2 {
     text-align: center;
 }
+.ana {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.ana h1{
+    text-align: center;
+    margin: 8rem 0 -62px;
+    font-size: 45px;
+}
+.grand {
+    display: flex;
+    width: 76%;
+    flex-wrap: wrap;
+    margin: 5% auto 0;
+    justify-content: space-between;
+}
+.oli {
+    background-color: #758950;
+    min-width: 23%;
+    margin: 4% 12px 6px 0;
+    padding: 30px;
+}
+.oli p {
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    width: 283px;
+    font-family: initial;
+}
+.oli h3 {
+    font-size: 38px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    width: 280px;
+    height: 138px;
+
+}
+.oliv {
+    background-color: burlywood;
+    width: 225px;
+    height: 450px;
+    border-radius: 12px;
+}
+.olivi {
+    background-color: burlywood;
+    width: 225px;
+    height: 450px;
+    border-radius: 12px;
+}
+.footer-3{
+    margin: 20px;
+    text-align: center;
+}
+
